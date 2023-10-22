@@ -1,0 +1,35 @@
+.newsletter{
+    width: 65%;
+    height: 40vh;
+    flex-direction: column;
+    padding: 0px 140px;
+    margin-top: 80rem;
+    background: linear-gradient(180deg , #fde1ff 0%, #e1ffea22 60%);
+}
+
+.newsletter div{
+    width: 730px;
+    height: 70px;
+    border: 1px solid #e3e3e3;
+
+}
+
+.newsletter input{
+    width: 500px;
+    border: none;
+    outline: none;
+    margin-left: 30px;
+    color: #616161;
+    font-size: 16px;
+
+}
+
+.newsletter div button{
+    width: 210px;
+    height: 70px;
+    background: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 80px;
+}

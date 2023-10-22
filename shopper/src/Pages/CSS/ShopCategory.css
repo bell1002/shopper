@@ -1,0 +1,14 @@
+
+.shopcategory-indexSort p span{
+    font-weight: 600;
+}
+.shopcategory-sort{
+    border: 1px solid #888;
+}
+
+.shopcategory-products{
+    margin: 20px 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 80px;
+}

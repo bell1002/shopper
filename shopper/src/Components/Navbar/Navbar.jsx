@@ -17,10 +17,10 @@ function Navbar() {
                     <p className="text-black fw-bold fs-1">Shopper</p>
                 </div>
                 <ul className="nav-menu d-flex align-items-center fs-4 text-black fw-normal list-unstyled ">
-                    <li className="mx-3 " onClick={()=>{setMenu("shop")}}><Link to='/' className="text-decoration-none">Shop</Link>{menu === 'shop'? <hr/>:<></>}</li>
-                    <li className="mx-3 " onClick={()=>{setMenu("mens")}}><Link to='/mens' className="text-decoration-none">Men</Link>{menu === 'mens'? <hr/>:<></>}</li>
-                    <li className="mx-3 " onClick={()=>{setMenu("womens")}}><Link to='/womens' className="text-decoration-none">Women</Link>{menu === 'womens'? <hr/>:<></>}</li>
-                    <li className="mx-3 " onClick={()=>{setMenu("kids")}}><Link to='/kids' className="text-decoration-none">Kids</Link>{menu === 'kids'? <hr/>:<></>}</li>
+                    <li className="mx-3 " onClick={()=>{setMenu("shop")}}><Link to='/' className="text-decoration-none text-dark">Shop</Link>{menu === 'shop'? <hr/>:<></>}</li>
+                    <li className="mx-3 " onClick={()=>{setMenu("mens")}}><Link to='/mens' className="text-decoration-none text-dark">Men</Link>{menu === 'mens'? <hr/>:<></>}</li>
+                    <li className="mx-3 " onClick={()=>{setMenu("womens")}}><Link to='/womens' className="text-decoration-none text-dark">Women</Link>{menu === 'womens'? <hr/>:<></>}</li>
+                    <li className="mx-3 " onClick={()=>{setMenu("kids")}}><Link to='/kids' className="text-decoration-none text-dark">Kids</Link>{menu === 'kids'? <hr/>:<></>}</li>
                 </ul>
                 <div className="nav-login-cart d-flex align-items-center">
                     <Link to='/login'><button className=" mx-5 border border-black rounded-pill px-5 py-2">Login</button></Link>
