@@ -1,14 +1,17 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import './Navbar.css';
 
 import logo from '../Assets/logo.png';
 import cart_icon from '../Assets/cart_icon.png';
 import { Link } from "react-router-dom";
+import { ShopContext } from "../../Context/ShopContext";
 
 
 function Navbar() {
 
     const [menu,setMenu] = useState('shop');
+    const {getTotalCartItems} =useContext(ShopContext);
+
     return(
       
             <div className="navbar d-flex justify-content-around shadow-sm p-3 bg-body-tertiary rounded ">
@@ -25,7 +28,7 @@ function Navbar() {
                 <div className="nav-login-cart d-flex align-items-center">
                     <Link to='/login'><button className=" mx-5 border border-black rounded-pill px-5 py-2">Login</button></Link>
                     <Link to='/cart'><img src={cart_icon} alt=""/></Link>
-                    <div className="nav-cart-count d-flex justify-content-center">0</div>
+                    <div className="nav-cart-count d-flex justify-content-center">{getTotalCartItems()}</div>
                 </div>
             </div>
        

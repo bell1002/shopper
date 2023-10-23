@@ -1,0 +1,57 @@
+.image{
+    width: 110px;
+    height: 150px;
+}
+.nametitle{
+    width: 100px;
+    height: 150px;
+
+    
+}
+
+.cart button{
+    background: white;
+    border: none;
+    width: 24px;
+    height: 24px;
+    margin-left: 100px;
+    
+}
+.total{
+   width: 24px;
+   height: 24px;
+    background: white;
+    margin-left: 80px;
+}
+
+.remove{
+    width: 24px;
+    height: 24px;
+    
+    margin-left: 70px;
+}
+.carttotal{
+    width: 700px;
+    height: 700px;
+    margin: 0px 50px;
+}
+
+.cartpromocode{
+    width: 700px;
+    height: 700px;
+    margin: 0px 50px;
+}
+.proceed{
+    padding: 16px 24px;
+    font-size: 20px;
+}
+
+.pomo input{
+
+    width: 24rem;
+    padding: 16px 30px
+}
+.pomo button{
+    padding: 16px 24px;
+    font-size: 20px;
+}
